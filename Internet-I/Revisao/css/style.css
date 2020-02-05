@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(89, 197, 230);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+header>ul li {
+    display: inline;
+    padding: 20px;
+}
+
+header>img {
+    width: 150px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
