@@ -203,3 +203,18 @@ table {
     display: flex;
     flex-direction: column;
 }
+
+input, select, textarea {
+    margin: 5px;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+input:focus, select:focus, textarea:focus {
+    background-color: #cbe9e5;
+}
+
+input:hover, select:hover, textarea:hover {
+    border: 0.1px solid cadetblue;
+    box-shadow: 2px 2px 4px #007f8b;
+}
