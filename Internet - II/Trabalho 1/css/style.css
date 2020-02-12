@@ -1,0 +1,37 @@
+@charset "utf-8";
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #B3DAE5;
+    color: #19414D;
+    justify-content: center;
+}
+
+a {
+    color: #2D7186;
+}
+
+a:visited {
+    color: #027e71;
+}
+
+a:hover {
+    color: #009688;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 30px;
+}
+
+cite {
+    text-align: end;
+}
+
+li {
+    margin: 7px 0px;
+}

@@ -1,0 +1,205 @@
+@charset "UTF-8";
+body {
+    background-color: #B3DAE5;
+    color: #19414D;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+a {
+    color: #2D7186;
+}
+
+a:visited {
+    color: #009688;
+}
+
+a:hover {
+    color: #009688;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+header>ul li {
+    display: inline;
+    padding: 20px;
+}
+
+header>img {
+    width: 150px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    text-align: start;
+}
+
+figure {
+    float: right;
+    width: fit-content;
+}
+
+figure>img {
+    width: 250px;
+}
+
+
+/* __________ parágrafos _________*/
+
+.esquerdo {
+    text-align: left;
+}
+
+.direito {
+    text-align: right;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centro {
+    text-align: center;
+}
+
+.esquerdo, .justificado {
+    text-indent: 25px;
+}
+
+.especial {
+    text-indent: 30px;
+    line-height: 2;
+    /*espaço entre linhas*/
+    text-shadow: 1px 1px 1px #224d4d;
+    font-style: italic;
+    margin: 15px;
+    border: 3px groove #54b19d;
+    padding: 10px;
+}
+
+
+/* __________ fontes _________*/
+
+.arial {
+    font-family: arial;
+}
+
+.verdana {
+    font-family: verdana;
+}
+
+.tam10pt {
+    font-size: 10pt;
+}
+
+.tam10px {
+    font-size: 10px;
+}
+
+.tam1em {
+    font-size: 1em;
+}
+
+.vermelho {
+    color: #ff0000;
+}
+
+.azul {
+    color: #0000ff;
+}
+
+.sombra {
+    text-shadow: 1px 1px 1px #224d4d;
+}
+
+.versalete {
+    font-variant: small-caps;
+}
+
+.maiusculo {
+    text-transform: uppercase;
+}
+
+.minusculo {
+    text-transform: lowercase;
+}
+
+
+/* __________ imagens _________*/
+
+.imagem img {
+    width: 100%;
+}
+
+.imagem {
+    width: 250px;
+    float: right;
+    padding: 10px;
+}
+
+
+/* __________ fundo _________*/
+
+.fundo {
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100% auto;
+}
+
+
+/* __________ listas _________*/
+
+.lista1 {
+    list-style-type: square;
+    /* opções: disc, circle, square, none */
+    /* Tem como colocar imagens, símbolos de diversas linguas e até emojis.
+    No caso de imagens, não esquecer de colocar a propriedade 'inside', a menos que queira a imagem grande */
+}
+
+.lista2 {
+    list-style-type: upper-roman;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+    padding: 10px;
+}
+
+
+/* __________ table _________*/
+
+table, tr, td, th {
+    border: 1px solid #000000;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 4px groove #84a3a1;
+    background-color: #c1e9db;
+}
+
+/* __________ form _________*/
+
+.menor {
+    display: flex;
+    flex-direction: column;
+}
