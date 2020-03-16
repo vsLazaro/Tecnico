@@ -6,10 +6,6 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
     public void levantar() {
         System.out.println(this.nome + " levantou.");
     }
@@ -26,7 +22,7 @@ public class Pessoa {
         System.out.println(this.nome + " virou para " + direction);
     }
 
-    Objetivo localizar(String objetivo) {
+    public Objetivo localizar(String objetivo) {
         Objetivo localizado;
         try {
             localizado = new Objetivo(objetivo);
@@ -36,7 +32,7 @@ public class Pessoa {
         return localizado;
     }
 
-    void sentar(Objetivo objetivo) {
+    public void sentar(Objetivo objetivo) {
         if (objetivo.getNome().equals("cadeira")) {
             System.out.println(this.nome + " sentou-se");
         } else {
@@ -44,7 +40,7 @@ public class Pessoa {
         }
     }
 
-    void beber(Objetivo bebida) {
+    public void beber(Objetivo bebida) {
         System.out.println(this.nome + " bebeu " + bebida.getNome());
     }
 
