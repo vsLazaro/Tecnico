@@ -1,4 +1,4 @@
-#Exemplo Herança - Sistema de uma escola
+# Exemplo Herança - Sistema de uma escola
 
 ## Pessoa 
 * nome 
