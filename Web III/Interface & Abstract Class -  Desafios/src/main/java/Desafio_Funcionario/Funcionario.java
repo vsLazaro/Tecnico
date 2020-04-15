@@ -26,6 +26,10 @@ public abstract class Funcionario {
         this.salario = salario;
     }
 
+    /**
+     *
+     * @return
+     */
     public abstract double calcularBonificacao();
 
     public double calcularSalarioLiquido() {
