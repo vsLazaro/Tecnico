@@ -1,4 +1,5 @@
 1 - Exemplo maven (Maven utilizado em outros projetos. Link:)
+
 2 - Exemplo gradle (Gradle com Spring com Hello World em */exemple* )
 
 3 - Exemplo gradle + lib rest repositories + HelloWorld (*/web_exemple*)
@@ -17,6 +18,9 @@ Client, Product -> com lombok....
 -------------------------------------------------------------------
 
 6 - exemplo injecao de dependencia
+
 7 - exemplo post construct pre destroy
+
 8 - exemplo escopo
+
 9 - exemplo escopo component scan
