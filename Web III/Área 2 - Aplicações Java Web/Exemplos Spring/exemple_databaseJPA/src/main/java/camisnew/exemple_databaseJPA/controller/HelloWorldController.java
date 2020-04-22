@@ -1,0 +1,13 @@
+package camisnew.exemple_databaseJPA.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloWorldController {
+
+    @GetMapping("/")
+    public String index() {
+        return "Bem vindo! \nCheque o endpoint /clientes";
+    }
+}
