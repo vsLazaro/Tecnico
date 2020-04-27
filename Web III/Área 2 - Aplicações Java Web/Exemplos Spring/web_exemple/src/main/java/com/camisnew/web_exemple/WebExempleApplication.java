@@ -9,7 +9,7 @@ public class WebExempleApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(WebExempleApplication.class, args);
 
-		System.out.println("Exemplo com spring agora com REST. Veja em localhost:");
+		System.out.println("Exemplo com spring agora com REST. Veja em localhost:8080 ");
 	}
 
 }
